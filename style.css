@@ -1,0 +1,56 @@
+body{
+    background-color:  #FAFAFA;
+    ;
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.hero-h3{ font-size: 18px;
+    font-weight: 700;
+    margin-top: 141px;
+
+}
+.hero-h1{
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 76px;}
+
+
+.p-24{
+    font-size: 24px;
+    font-weight: 400;
+    color:  #2D3142;
+    
+}
+.p-16{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #2D3142;
+    
+}
+.p-18{
+    font-size: 18px;
+    font-weight: 400;
+    color:  #2D3142;
+    
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #F44335 ;
+    border-radius: 50px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .hero-h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+  }
